@@ -5,8 +5,8 @@ import numpy as np
 from huggingface_hub import hf_hub_download, login
 
 # --- Authenticate if repo is private ---
-#HF_TOKEN = st.secrets["HF_TOKEN"]  # store this in Streamlit Cloud secrets
-#login(token=HF_TOKEN)
+HF_TOKEN = st.secrets["HF_TOKEN"]  # store this in Streamlit Cloud secrets
+login(token=HF_TOKEN)
 
 # --- Hugging Face Repo Info ---
 REPO_ID = "ioakowuah/RecommendationSystem"   # without https://
@@ -34,3 +34,4 @@ def load_models():
     )["user_id"].tolist()
 
     return svd_model, user_factors, item_factors, user2idx, idx2item, unique_users
+
