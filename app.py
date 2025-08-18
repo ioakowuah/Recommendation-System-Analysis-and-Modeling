@@ -9,8 +9,8 @@ from huggingface_hub import hf_hub_download, login
 #login(token=HF_TOKEN)
 
 # --- Hugging Face Repo Info ---
-REPO_ID = "ioakowuah/RecommendationSystem"   # without https://
-REPO_TYPE = "dataset"  # or "model" depending where you uploaded
+REPO_ID = "ioakowuah/Recommendation-System-Analysis-and-Modeling"   # without https://
+REPO_TYPE = "model"  # or "model" depending where you uploaded
 
 MODEL_FILES = {
     "svd_model": "svd_model.pkl",
@@ -34,5 +34,6 @@ def load_models():
     )["user_id"].tolist()
 
     return svd_model, user_factors, item_factors, user2idx, idx2item, unique_users
+
 
 
