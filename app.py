@@ -14,7 +14,6 @@ MODEL_FILES = {
     "item_factors": "item_factors.pkl",
     "user2idx": "user2idx.pkl",
     "idx2item": "idx2item.pkl",
-    "unique_users": "unique_users.csv"
 }
 
 @st.cache_resource
@@ -26,9 +25,8 @@ def load_models():
         user2idx = pickle.load(open(hf_hub_download(repo_id=REPO_ID, filename=MODEL_FILES["user2idx"], repo_type=REPO_TYPE), "rb"))
         idx2item = pickle.load(open(hf_hub_download(repo_id=REPO_ID, filename=MODEL_FILES["idx2item"], repo_type=REPO_TYPE), "rb"))
 
-        unique_users = pd.read_csv(
-            hf_hub_download(repo_id=REPO_ID, filename=MODEL_FILES["unique_users"], repo_type=REPO_TYPE)
-        )["user_id"].tolist()
+        # Build unique_users directly from user2idx keys
+        unique_users = list(user2idx.keys())
 
         return svd_model, user_factors, item_factors, user2idx, idx2item, unique_users, False
 
