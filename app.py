@@ -5,7 +5,7 @@ import numpy as np
 from huggingface_hub import hf_hub_download
 
 # --- Hugging Face Repo Info ---
-REPO_ID = "https://huggingface.co/datasets/ioakowuah/RecommendationSystem/tree/main"   # e.g. "nana-baffour/recommender-model"
+REPO_ID = "https://huggingface.co/datasets/ioakowuah/RecommendationSystem"   # e.g. "nana-baffour/recommender-model"
 MODEL_FILES = {
     "svd_model": "svd_model.pkl",
     "user_factors": "user_factors.pkl",
@@ -65,3 +65,4 @@ if st.button("Get Recommendations"):
             st.write(f"{i}. Item ID: {item}")
     else:
         st.warning("No recommendations available for this user.")
+
