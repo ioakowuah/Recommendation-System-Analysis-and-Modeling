@@ -23,7 +23,7 @@ This project addresses this challenge by building a personalized recommendation 
 Before building the recommendation engine, I conducted EDA to better understand the dataset:
 #### Key Insights
 -	Event distribution:
-o	~70% of events were views
+** 70% of events were views
 o	~20% were add-to-cart
 o	~10% were transactions
 -	User activity:
