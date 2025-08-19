@@ -35,3 +35,6 @@ o	Long-tail effect: majority of items have very few interactions. |
 -	Session patterns:
 o	Users who added items to the cart were significantly more likely to purchase within the same session.
 
+![Key Insight](https://github.com/ioakowuah/Recommendation-System-Analysis-and-Modeling/blob/main/What%20events%20are%20exhibited%20by%20users%20on%20the%20ecommerce%20website.png)
+
+
