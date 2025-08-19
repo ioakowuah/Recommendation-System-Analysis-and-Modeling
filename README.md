@@ -59,3 +59,10 @@ Additionally, we provide evaluation metrics (Precision@K) to measure recommendat
 -	Pickle / JSON – model and mapping persistence
 -	Streamlit (optional) – interactive recommendation interface
 
+#### 📈 Impact
+- Improves user experience by surfacing relevant products
+- Increases engagement and time spent on platform
+- Boosts conversion rate & revenue by recommending products users are likely to buy
+- Provides scalable offline model training with efficient sparse matrix factorization
+
+
