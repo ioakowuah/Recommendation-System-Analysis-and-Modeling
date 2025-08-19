@@ -23,11 +23,11 @@ This project addresses this challenge by building a personalized recommendation 
 Before building the recommendation engine, I conducted EDA to better understand the dataset:
 #### Key Insights
 ####	User activity:
-* View Events Dominate: The majority of user interactions are views, with over 16 million occurrences. This suggests that users frequently browse items but do not necessarily proceed
+* View Events Dominate: The majority of user interactions are views (96.7%). This suggests that users frequently browse items but do not necessarily proceed
 
-* Low Add-to-Cart Conversion: The number of add-to-cart events is significantly lower than views. This indicates a high drop-off rate between viewing an item and adding it to the cart.
+* Low Add-to-Cart Conversion: The number of add-to-cart events(2.5%) is significantly lower than views. This indicates a high drop-off rate between viewing an item and adding it to the cart.
 
-- Minimal Transactions: Purchases (transactions) are the least frequent event type. This suggests that only a small fraction of users complete the buying process.
+- Minimal Transactions: Purchases (transactions - 0.8%) are the least frequent event type. This suggests that only a small fraction of users complete the buying process.
 
 
 ####	Item popularity:
