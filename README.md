@@ -37,7 +37,7 @@ Before building the recommendation engine, I conducted EDA to better understand 
 ####	Session patterns:
 - More purchases, 42.3% are made in the midnight between the hours of 9pm to 5 am.
 
-![Key Insight](https://github.com/ioakowuah/Recommendation-System-Analysis-and-Modeling/blob/main/What%20events%20are%20exhibited%20by%20users%20on%20the%20ecommerce%20website.png)
+![Key Insight](https://github.com/ioakowuah/Recommendation-System-Analysis-and-Modeling/blob/main/What%20events%20are%20exhibited%20by%20users%20on%20the%20ecommerce%20website(percentage).png)
 
 ![Key Insight](https://github.com/ioakowuah/Recommendation-System-Analysis-and-Modeling/blob/main/top%205%20viewed%20and%20transacted.png)
 
