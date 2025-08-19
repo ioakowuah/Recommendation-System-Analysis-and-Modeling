@@ -22,18 +22,20 @@ This project addresses this challenge by building a personalized recommendation 
 ## Exploratory Data Analysis (EDA)
 Before building the recommendation engine, I conducted EDA to better understand the dataset:
 #### Key Insights
--	Event distribution:
-o ~70% of events were views |
-o	~20% were add-to-cart |
-o	~10% were transactions
 -	User activity:
-o	A small fraction of users contribute to the majority of events (typical power-law distribution). |
-o	Some users are very active, while many only appear once or twice. |
+-View Events Dominate: The majority of user interactions are views, with over 16 million occurrences. This suggests that users frequently browse items but do not necessarily proceed
+
+- Low Add-to-Cart Conversion: The number of add-to-cart events is significantly lower than views. This indicates a high drop-off rate between viewing an item and adding it to the cart.
+
+- Minimal Transactions: Purchases (transactions) are the least frequent event type. This suggests that only a small fraction of users complete the buying process.
+<img width="3774" height="345" alt="image" src="https://github.com/user-attachments/assets/706534c8-87b9-49d7-9420-3fa0e7288880" />
+
+
 -	Item popularity:
-o	A few items are extremely popular (highly viewed/purchased). |
+o	Item (ID: 37029) has 24,472 count of views but 570 count of purchases. This indicate this item has highest potential of adding to revenue should we prioritize it in marketing and sales campaigns.
 o	Long-tail effect: majority of items have very few interactions. |
 -	Session patterns:
-o	Users who added items to the cart were significantly more likely to purchase within the same session.
+o	Users were significantly more likely to purchase within the evening or midnight.
 
 ![Key Insight](https://github.com/ioakowuah/Recommendation-System-Analysis-and-Modeling/blob/main/What%20events%20are%20exhibited%20by%20users%20on%20the%20ecommerce%20website.png)
 
