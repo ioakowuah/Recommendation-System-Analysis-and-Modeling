@@ -39,7 +39,7 @@ Before building the recommendation engine, I conducted EDA to better understand 
 
 ![Key Insight](https://github.com/ioakowuah/Recommendation-System-Analysis-and-Modeling/blob/main/What%20events%20are%20exhibited%20by%20users%20on%20the%20ecommerce%20website(percentage).png)
 
-![Key Insight](https://github.com/ioakowuah/Recommendation-System-Analysis-and-Modeling/blob/main/top%205%20viewed%20and%20transacted.png)
+![Key Insight](https://github.com/ioakowuah/Recommendation-System-Analysis-and-Modeling/blob/main/5%20viewed%20and%20transacted%20top%20items.png)
 
 ![Key Insight](https://github.com/ioakowuah/Recommendation-System-Analysis-and-Modeling/blob/main/purchased%20over%20the%20periods%20of%20the%20day.png)
 
