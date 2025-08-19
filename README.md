@@ -3,8 +3,8 @@
 In modern e-commerce platforms, customers interact with items through actions such as views, add-to-cart, and transactions. However, most users only interact with a fraction of available items, making it difficult for them to discover products they are likely to purchase.
 Without an effective recommendation system, businesses risk:
 - Low product discoverability
-- **Reduced user engagement
-- **Missed sales opportunities
+- Reduced user engagement
+- Missed sales opportunities
 
 This project addresses this challenge by building a personalized recommendation engine using Singular Value Decomposition (SVD) on implicit feedback data.
 
