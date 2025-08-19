@@ -1,4 +1,4 @@
-# Recommendation-System-Analysis-and-Modeling
+<img width="1738" height="94" alt="image" src="https://github.com/user-attachments/assets/8779a247-c2aa-493f-a2ac-734776c238c3" /># Recommendation-System-Analysis-and-Modeling
 ## 📌 Problem Statement
 In modern e-commerce platforms, customers interact with items through actions such as views, add-to-cart, and transactions. However, most users only interact with a fraction of available items, making it difficult for them to discover products they are likely to purchase.
 Without an effective recommendation system, businesses risk:
@@ -23,7 +23,7 @@ This project addresses this challenge by building a personalized recommendation 
 Before building the recommendation engine, I conducted EDA to better understand the dataset:
 #### Key Insights
 -	User activity:
--View Events Dominate: The majority of user interactions are views, with over 16 million occurrences. This suggests that users frequently browse items but do not necessarily proceed
+- View Events Dominate: The majority of user interactions are views, with over 16 million occurrences. This suggests that users frequently browse items but do not necessarily proceed
 
 - Low Add-to-Cart Conversion: The number of add-to-cart events is significantly lower than views. This indicates a high drop-off rate between viewing an item and adding it to the cart.
 
@@ -32,10 +32,11 @@ Before building the recommendation engine, I conducted EDA to better understand 
 
 
 -	Item popularity:
-o	Item (ID: 37029) has 24,472 count of views but 570 count of purchases. This indicate this item has highest potential of adding to revenue should we prioritize it in marketing and sales campaigns.
-o	Long-tail effect: majority of items have very few interactions. |
+- Item (ID: 37029) has 24,472 count of views but 570 count of purchases. This indicate this item has highest potential of adding to revenue should we prioritize it in marketing and sales campaigns.
+- The other top 4 items high view counts without appearance in the top 5 item purchases indicate an opportunity to scale up conversions.
+
 -	Session patterns:
-o	Users were significantly more likely to purchase within the evening or midnight.
+- More purchases, 42.3% are made in the midnight between the hours of 9pm to 5 am.
 
 ![Key Insight](https://github.com/ioakowuah/Recommendation-System-Analysis-and-Modeling/blob/main/What%20events%20are%20exhibited%20by%20users%20on%20the%20ecommerce%20website.png)
 
