@@ -7,6 +7,6 @@ This project aims to develop a recommendation system that leverages historical u
 
 - **Project Title:** Recommendation-System-Analysis-and-Modeling 
 - **Tool Used:** Python  
-- **Dataset Source:** [Kaggle – E-Commerce Dataset](https://www.kaggle.com/datasets/carrie1/ecommerce-data)  
-- **Period Covered:** December 2010 – December 2011  
+- **Dataset Source:** [E-Commerce Dataset](https://huggingface.co/datasets/ioakowuah/RecommendationSystem)  
+- **Period Covered:** January 2015 – December 2015  
 
