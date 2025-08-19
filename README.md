@@ -1,4 +1,4 @@
-<img width="1738" height="94" alt="image" src="https://github.com/user-attachments/assets/8779a247-c2aa-493f-a2ac-734776c238c3" /># Recommendation-System-Analysis-and-Modeling
+## E-commerce Recommendation System using SVD
 ## 📌 Problem Statement
 In modern e-commerce platforms, customers interact with items through actions such as views, add-to-cart, and transactions. However, most users only interact with a fraction of available items, making it difficult for them to discover products they are likely to purchase.
 Without an effective recommendation system, businesses risk:
@@ -23,12 +23,11 @@ This project addresses this challenge by building a personalized recommendation 
 Before building the recommendation engine, I conducted EDA to better understand the dataset:
 #### Key Insights
 -	User activity:
-- View Events Dominate: The majority of user interactions are views, with over 16 million occurrences. This suggests that users frequently browse items but do not necessarily proceed
+* View Events Dominate: The majority of user interactions are views, with over 16 million occurrences. This suggests that users frequently browse items but do not necessarily proceed
 
-- Low Add-to-Cart Conversion: The number of add-to-cart events is significantly lower than views. This indicates a high drop-off rate between viewing an item and adding it to the cart.
+* Low Add-to-Cart Conversion: The number of add-to-cart events is significantly lower than views. This indicates a high drop-off rate between viewing an item and adding it to the cart.
 
 - Minimal Transactions: Purchases (transactions) are the least frequent event type. This suggests that only a small fraction of users complete the buying process.
-<img width="3774" height="345" alt="image" src="https://github.com/user-attachments/assets/706534c8-87b9-49d7-9420-3fa0e7288880" />
 
 
 -	Item popularity:
