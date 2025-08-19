@@ -1,5 +1,12 @@
 # Recommendation-System-Analysis-and-Modeling
-This project aims to develop a recommendation system that leverages historical user data to provide tailored recommendations across different domains, such as product recommendations, content suggestions, and service optimization
+📌 Problem Statement
+In modern e-commerce platforms, customers interact with items through actions such as views, add-to-cart, and transactions. However, most users only interact with a fraction of available items, making it difficult for them to discover products they are likely to purchase.
+Without an effective recommendation system, businesses risk:
+•	Low product discoverability
+•	Reduced user engagement
+•	Missed sales opportunities
+This project addresses this challenge by building a personalized recommendation engine using Singular Value Decomposition (SVD) on implicit feedback data.
+
 
 ![REcommendation-System](https://github.com/ioakowuah/Recommendation-System-Analysis-and-Modeling/blob/main/recommendation%20system%20.png)
 
