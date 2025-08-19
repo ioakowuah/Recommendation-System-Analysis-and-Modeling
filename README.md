@@ -43,3 +43,11 @@ Before building the recommendation engine, I conducted EDA to better understand 
 
 ![Key Insight](https://github.com/ioakowuah/Recommendation-System-Analysis-and-Modeling/blob/main/purchased%20over%20the%20periods%20of%20the%20day.png)
 
+###🚀Solution
+We developed a matrix factorization-based recommender system that learns user preferences and item representations from historical event logs.
+-	Input: User-item interactions (view, addtocart, transaction)
+-	Transformation: Assign implicit ratings (view=1, addtocart=3, transaction=5)
+-	Model: TruncatedSVD (dimensionality reduction on sparse user–item matrix)
+-	Output: Top-N personalized product recommendations for each user
+Additionally, we provide evaluation metrics (Precision@K) to measure recommendation quality.
+
