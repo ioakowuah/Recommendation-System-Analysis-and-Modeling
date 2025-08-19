@@ -52,10 +52,10 @@ We developed a matrix factorization-based recommender system that learns user pr
 Additionally, we provide evaluation metrics (Precision@K) to measure recommendation quality.
 
 ####  🛠️Tech Stack
-•	Python 🐍
-•	Pandas / NumPy – data preprocessing
-•	Scipy (sparse matrices) – efficient storage of large user-item interactions
-•	Scikit-learn (TruncatedSVD) – matrix factorization
-•	Pickle / JSON – model and mapping persistence
-•	Streamlit (optional) – interactive recommendation interface
+-	Python 🐍
+-	Pandas / NumPy – data preprocessing
+-	Scipy (sparse matrices) – efficient storage of large user-item interactions
+-	Scikit-learn (TruncatedSVD) – matrix factorization
+-	Pickle / JSON – model and mapping persistence
+-	Streamlit (optional) – interactive recommendation interface
 
