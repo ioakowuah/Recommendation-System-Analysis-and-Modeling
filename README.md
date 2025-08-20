@@ -13,7 +13,7 @@ This project addresses this challenge by building a personalized recommendation 
 
 
 ##  Link to Deployed Recommendation System Demo
-- **Dataset Source:** [E-Commerce Dataset](https://huggingface.co/datasets/ioakowuah/RecommendationSystem)
+- **Website:** [Link](https://recommendation-system-analysis-and-modeling-braonjkwfzfbdyxi9f.streamlit.app/)
   
 ##  Project Details
 
