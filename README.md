@@ -11,6 +11,10 @@ This project addresses this challenge by building a personalized recommendation 
 
 ![REcommendation-System](https://github.com/ioakowuah/Recommendation-System-Analysis-and-Modeling/blob/main/recommendation%20system%20.png)
 
+
+##  Link to Deployed Recommendation System Demo
+- **Dataset Source:** [E-Commerce Dataset](https://huggingface.co/datasets/ioakowuah/RecommendationSystem)
+  
 ##  Project Details
 
 - **Project Title:** Recommendation-System-Analysis-and-Modeling 
